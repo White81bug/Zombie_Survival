@@ -1,0 +1,564 @@
+fileFormatVersion: 2
+guid: 34079699c4c5cef489acff1cc0dd8206
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: 2d_top_down_zombie_comparison_by_tdeleeuw_d4vfbgp_0
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 332
+        width: 156
+        height: 74
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 143a3809cf629c048a993385c6b0a24e
+      internalID: 309069757
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2d_top_down_zombie_comparison_by_tdeleeuw_d4vfbgp_1
+      rect:
+        serializedVersion: 2
+        x: 286
+        y: 348
+        width: 78
+        height: 126
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: faf109eb636ccf849a5011420490707f
+      internalID: -566645416
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2d_top_down_zombie_comparison_by_tdeleeuw_d4vfbgp_2
+      rect:
+        serializedVersion: 2
+        x: 454
+        y: 348
+        width: 78
+        height: 126
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5525d41d22737ab46b5542cc130ee4a6
+      internalID: 1263880540
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zombie_fast
+      rect:
+        serializedVersion: 2
+        x: 258
+        y: 257
+        width: 52
+        height: 58
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 89105a2742c50034d8036919fdb252bf
+      internalID: 632597682
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2d_top_down_zombie_comparison_by_tdeleeuw_d4vfbgp_4
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 254
+        width: 56
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 37f8da76b23e4c54ea1ec98ed13f0776
+      internalID: -220896665
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2d_top_down_zombie_comparison_by_tdeleeuw_d4vfbgp_5
+      rect:
+        serializedVersion: 2
+        x: 426
+        y: 256
+        width: 52
+        height: 58
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 98e00d1a72cd39c4d97d2630b9d8360e
+      internalID: 2058817616
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2d_top_down_zombie_comparison_by_tdeleeuw_d4vfbgp_6
+      rect:
+        serializedVersion: 2
+        x: 510
+        y: 256
+        width: 52
+        height: 58
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 21c47490af6b59d4dab9bb6e51224a4a
+      internalID: -378665524
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zombie_default
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 172
+        width: 52
+        height: 58
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e3dc5307e4db3d64b917883671f1d2c9
+      internalID: 1129657376
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2d_top_down_zombie_comparison_by_tdeleeuw_d4vfbgp_8
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 172
+        width: 52
+        height: 58
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 54a175c9ba6c42e44a43fbd99f6a2562
+      internalID: -1032129097
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2d_top_down_zombie_comparison_by_tdeleeuw_d4vfbgp_9
+      rect:
+        serializedVersion: 2
+        x: 174
+        y: 172
+        width: 52
+        height: 58
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 58ee74d424e1bb743862d18e1aca36da
+      internalID: 2020944757
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2d_top_down_zombie_comparison_by_tdeleeuw_d4vfbgp_10
+      rect:
+        serializedVersion: 2
+        x: 258
+        y: 172
+        width: 52
+        height: 58
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d89703fe618bbe14bb0ca796adcab83d
+      internalID: 388814130
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2d_top_down_zombie_comparison_by_tdeleeuw_d4vfbgp_11
+      rect:
+        serializedVersion: 2
+        x: 342
+        y: 178
+        width: 52
+        height: 46
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f465c16d4efaef247b85f0a3a9d1dbb9
+      internalID: -1103445754
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2d_top_down_zombie_comparison_by_tdeleeuw_d4vfbgp_12
+      rect:
+        serializedVersion: 2
+        x: 426
+        y: 180
+        width: 50
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 97a51558f18774a479c60a316466fcc1
+      internalID: 1163631207
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2d_top_down_zombie_comparison_by_tdeleeuw_d4vfbgp_13
+      rect:
+        serializedVersion: 2
+        x: 510
+        y: 170
+        width: 52
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9fd5ccef6d092314b8d10b0f58fd0bd2
+      internalID: 1306877737
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2d_top_down_zombie_comparison_by_tdeleeuw_d4vfbgp_14
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 88
+        width: 52
+        height: 58
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c6600e6aa907e784da573e293de9dc81
+      internalID: -1387656588
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2d_top_down_zombie_comparison_by_tdeleeuw_d4vfbgp_15
+      rect:
+        serializedVersion: 2
+        x: 118
+        y: 40
+        width: 78
+        height: 68
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 48d188cf15cc6d9408aa5a7b1cb976b8
+      internalID: -859252628
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2d_top_down_zombie_comparison_by_tdeleeuw_d4vfbgp_16
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 24
+        width: 52
+        height: 100
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 77b32fde72db2bd4d9a01ea1be5987bd
+      internalID: 411243718
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zombie_Fat
+      rect:
+        serializedVersion: 2
+        x: 430
+        y: 30
+        width: 128
+        height: 90
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a264481a9f2f13e4cb99f49374b8591d
+      internalID: 85535744
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 2d_top_down_zombie_comparison_by_tdeleeuw_d4vfbgp_18
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 2
+        width: 58
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe5890d1a7ae026448bbcdffc4979956
+      internalID: -633246015
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      2d_top_down_zombie_comparison_by_tdeleeuw_d4vfbgp_5: 2058817616
+      2d_top_down_zombie_comparison_by_tdeleeuw_d4vfbgp_13: 1306877737
+      2d_top_down_zombie_comparison_by_tdeleeuw_d4vfbgp_4: -220896665
+      2d_top_down_zombie_comparison_by_tdeleeuw_d4vfbgp_12: 1163631207
+      Zombie_Fat: 85535744
+      2d_top_down_zombie_comparison_by_tdeleeuw_d4vfbgp_15: -859252628
+      2d_top_down_zombie_comparison_by_tdeleeuw_d4vfbgp_1: -566645416
+      2d_top_down_zombie_comparison_by_tdeleeuw_d4vfbgp_16: 411243718
+      2d_top_down_zombie_comparison_by_tdeleeuw_d4vfbgp_9: 2020944757
+      2d_top_down_zombie_comparison_by_tdeleeuw_d4vfbgp_0: 309069757
+      2d_top_down_zombie_comparison_by_tdeleeuw_d4vfbgp_18: -633246015
+      2d_top_down_zombie_comparison_by_tdeleeuw_d4vfbgp_2: 1263880540
+      2d_top_down_zombie_comparison_by_tdeleeuw_d4vfbgp_14: -1387656588
+      2d_top_down_zombie_comparison_by_tdeleeuw_d4vfbgp_6: -378665524
+      2d_top_down_zombie_comparison_by_tdeleeuw_d4vfbgp_11: -1103445754
+      Zombie_default: 1129657376
+      2d_top_down_zombie_comparison_by_tdeleeuw_d4vfbgp_8: -1032129097
+      2d_top_down_zombie_comparison_by_tdeleeuw_d4vfbgp_10: 388814130
+      Zombie_fast: 632597682
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
