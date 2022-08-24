@@ -4,18 +4,21 @@ using System.Collections;
 public class PlayerController : MonoBehaviour
 {
     private Rigidbody2D _rb;
-    private bool IsReloading = false;
-    public int CurrentAmmo { get; private set; }
 
-
+    public int Health;
+   
+    public Game Game;
 
     public GameObject Bullet;
     public Transform ShootPoint;
-    public int Health;
-    public Game Game;
     public int MaxAmmo = 10;
-    
     public int ReloadTime;
+    private bool IsReloading = false;
+    public int CurrentAmmo { get; private set; }
+
+    public AudioManager AudioManager;
+
+    public GameObject BloodSplash;
     void Start()
     {
         _rb = GetComponent<Rigidbody2D>();
@@ -36,21 +39,29 @@ public class PlayerController : MonoBehaviour
     public IEnumerator Reload()
     {
         IsReloading = true;
-        Debug.Log("Reloading");
+        AudioManager.PlayReloadSound();
+       
 
         yield return new WaitForSeconds(ReloadTime);
 
         CurrentAmmo = MaxAmmo;
         IsReloading = false;
     }
+    public void ManualReload()
+    {
+        StartCoroutine(Reload());
+        
+    }
     private void Shoot()
     {
         Instantiate(Bullet,ShootPoint.position, transform.rotation);
+        AudioManager.PlayShotSound();
         CurrentAmmo--;
     }
 
     public void TakeHit()
     {
+        AudioManager.PlayPlayerHitSound();
         Health -= 1;
         if(Health <= 0)
         {
@@ -59,6 +70,7 @@ public class PlayerController : MonoBehaviour
     }
     private void Die()
     {
+        Instantiate(BloodSplash, transform.position, Quaternion.identity);
         Destroy(gameObject);
         Game.OnPlayerDied();
     }

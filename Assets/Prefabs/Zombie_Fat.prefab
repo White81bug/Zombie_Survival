@@ -136,5 +136,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: eb6f05c5dfb154545ab7f446f1d50dd8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Speed: 2
-  Health: 3
+  Speed: 100
+  Health: 5
+  BloodSplash: {fileID: 5416737974179429352, guid: dfd1d269b3c280b4a888874ffc058362, type: 3}

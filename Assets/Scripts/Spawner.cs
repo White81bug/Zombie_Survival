@@ -3,6 +3,7 @@ using UnityEngine;
 public class Spawner : MonoBehaviour
 {
     public float SpawnRate = 2f;
+    public float SpawnIncreaseOverTime;
     public GameObject[] EnemyPrefab;
     public Transform[] SpawnPoints;
 
@@ -17,7 +18,7 @@ public class Spawner : MonoBehaviour
             var randomSpawnPoint = SpawnPoints[Random.Range(0, SpawnPoints.Length - 1)];
             Instantiate(EnemyPrefab[Random.Range(0, EnemyPrefab.Length)],randomSpawnPoint.position,Quaternion.identity);
             LastSpawnTime = Time.time;
-
+            SpawnRate *= SpawnIncreaseOverTime;
         }
     }
 }
