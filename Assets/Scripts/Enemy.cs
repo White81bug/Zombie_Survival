@@ -32,7 +32,7 @@ public class Enemy : MonoBehaviour
 
 
             transform.up = (_player.transform.position - transform.position).normalized;
-            _rb.velocity = transform.up * Speed * Time.deltaTime;
+            _rb.velocity = transform.up * Speed;
         }
         else _rb.velocity = Vector2.zero;
     }

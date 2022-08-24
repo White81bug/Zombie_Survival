@@ -26,6 +26,6 @@ public class UIText : MonoBehaviour
         AmmoText.text = PlayerController.CurrentAmmo.ToString();
         if(Game.CurrentState == Game.State.Playing) CurrentTime += Time.deltaTime;
         TimerTextInGame.text = CurrentTime.ToString("0.00");
-        TimerTextLoss.text = CurrentTime.ToString("0.00");
+        TimerTextLoss.text = CurrentTime.ToString("0.00") + " s";
     }
 }
