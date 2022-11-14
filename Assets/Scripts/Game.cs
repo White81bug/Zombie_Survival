@@ -4,13 +4,13 @@ using UnityEngine.SceneManagement;
 
 public class Game : MonoBehaviour
 {
-    public GameObject Spawner;
-    public GameObject LossScreen;
-    public GameObject InGameUI;
+    [SerializeField] private GameObject Spawner;
+    [SerializeField] private GameObject LossScreen;
+    [SerializeField] private GameObject InGameUI;
 
-    public AudioManager _AudioManager;
+    [SerializeField] private AudioManager _AudioManager;
 
-    public GameObject BloodSplash;
+    [SerializeField] private GameObject BloodSplash;
 
     public enum State
     {
@@ -42,6 +42,11 @@ public class Game : MonoBehaviour
             Instantiate(BloodSplash, e.transform.position, Quaternion.identity);
             Destroy(e);
         }
+    }
+
+    public void Exit()
+    {
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex - 1);
     }
 
 }

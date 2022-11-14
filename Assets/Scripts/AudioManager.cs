@@ -4,10 +4,10 @@ using UnityEngine;
 
 public class AudioManager : MonoBehaviour
 {
-    public AudioSource ShotSound;
-    public AudioSource PlayerGetHitSound;
-    public AudioSource ReloadSound;
-    public AudioSource ZombieDieSound;
+    [SerializeField] private AudioSource ShotSound;
+    [SerializeField] private AudioSource PlayerGetHitSound;
+    [SerializeField] private AudioSource ReloadSound;
+    [SerializeField] private AudioSource ZombieDieSound;
 
     public void PlayShotSound()
     {

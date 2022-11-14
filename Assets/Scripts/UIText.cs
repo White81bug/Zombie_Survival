@@ -3,14 +3,14 @@ using TMPro;
 
 public class UIText : MonoBehaviour
 {
-    public TextMeshProUGUI AmmoText;
-    public TextMeshProUGUI TimerTextInGame;
-    public TextMeshProUGUI TimerTextLoss;
-    public TextMeshProUGUI HealthText;
-    public PlayerController PlayerController;
-    public Game Game;
+    [SerializeField] private TextMeshProUGUI AmmoText;
+    [SerializeField] private TextMeshProUGUI TimerTextInGame;
+    [SerializeField] private TextMeshProUGUI TimerTextLoss;
+    [SerializeField] private TextMeshProUGUI HealthText;
+    [SerializeField] private PlayerController PlayerController;
+    [SerializeField] private Game Game;
 
-    public float CurrentTime;
+    [SerializeField] private float CurrentTime;
  
     void Start()
     {

@@ -9,16 +9,16 @@ public class PlayerController : MonoBehaviour
    
     public Game Game;
 
-    public GameObject Bullet;
-    public Transform ShootPoint;
-    public int MaxAmmo = 10;
-    public int ReloadTime;
+    [SerializeField] private GameObject Bullet;
+    [SerializeField] private Transform ShootPoint;
+    [SerializeField] private int MaxAmmo = 10;
+    [SerializeField] private int ReloadTime;
     private bool IsReloading = false;
     public int CurrentAmmo { get; private set; }
 
-    public AudioManager AudioManager;
+    [SerializeField] private AudioManager AudioManager;
 
-    public GameObject BloodSplash;
+    [SerializeField] private GameObject BloodSplash;
     void Start()
     {
         _rb = GetComponent<Rigidbody2D>();

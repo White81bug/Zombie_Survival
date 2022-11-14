@@ -2,10 +2,10 @@ using UnityEngine;
 
 public class Spawner : MonoBehaviour
 {
-    public float SpawnRate = 2f;
-    public float SpawnIncreaseOverTime;
-    public GameObject[] EnemyPrefab;
-    public Transform[] SpawnPoints;
+    [SerializeField] private float SpawnRate = 2f;
+    [SerializeField] private float SpawnIncreaseOverTime;
+    [SerializeField] private GameObject[] EnemyPrefab;
+    [SerializeField] private Transform[] SpawnPoints;
 
     private float LastSpawnTime;
 

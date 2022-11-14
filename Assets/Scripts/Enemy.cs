@@ -7,12 +7,12 @@ public class Enemy : MonoBehaviour
     private float _speed;
     private int _health;
 
-    public float Speed;
-    public int Health;
+    [SerializeField] private float Speed;
+    [SerializeField] private int Health;
 
     private AudioManager AudioManager;
 
-    public GameObject BloodSplash;
+    [SerializeField] private GameObject BloodSplash;
 
     void Start()
     {
